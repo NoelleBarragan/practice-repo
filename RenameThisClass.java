@@ -10,11 +10,10 @@ public class RenameThisClass
     public static void main(String[] args) {
         String[] StringArray = {"Alpha","Bravo","Charlie","Delta","Echo"};
         int i = 0;
-        for (i = 0; i < StringArray.length; i++) {
+        for (i = 0; i < StringArray.length; ++i) {
             System.out.println(StringArray[i]);
-            i++;
         }
-
         
-    }
 }
+}
+
